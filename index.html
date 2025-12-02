@@ -1138,6 +1138,229 @@
       
       </article>
 
+            <!--
+        - #RESEARCH
+      -->
+
+      <article class="research" data-page="research">
+
+        <header>
+          <h2 class="h2 article-title">Research</h2>
+        </header>
+
+        <!-- Research Interests -->
+        <section class="about-text">
+          <p>
+            My current research interests lie at the intersection of <strong>machine learning</strong>, 
+            <strong>uncertainty quantification</strong>, and <strong>human–AI interaction</strong>. 
+            I focus on how calibrated models, explanations, and visualizations can help non-experts 
+            make safer decisions with AI systems, especially in high-stakes settings like healthcare.
+          </p>
+
+          <p>
+            Methodologically, I work with <strong>probability calibration</strong> (reliability curves, Brier scores), 
+            <strong>bootstrap-based uncertainty</strong> for individual predictions, and 
+            <strong>explainability techniques</strong> such as SHAP to analyze feature contributions. 
+            On the interface side, I design and prototype <strong>interactive dashboards</strong> that surface 
+            these signals in a way that is understandable and actionable for clinicians and other end users.
+          </p>
+
+          <p>
+            Long term, I want to build uncertainty-aware decision support tools that make model confidence, 
+            error modes, and limitations visible instead of hidden—so people can collaborate with AI systems 
+            without over-trusting them.
+          </p>
+        </section>
+
+        <!-- Research Themes -->
+        <section class="service">
+
+          <h3 class="h3 service-title">Research Themes</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Uncertainty icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Uncertainty & Calibration</h4>
+                <p class="service-item-text">
+                  Studying how probability calibration, confidence scores, and error analysis can be communicated 
+                  in a way that matches human expectations and decision needs.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Explainability icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Explainability & Model Behavior</h4>
+                <p class="service-item-text">
+                  Using SHAP and other attribution methods to reveal which features drive predictions, how these 
+                  relate to uncertainty, and where high-confidence errors occur.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Dashboard icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Clinical AI Dashboards</h4>
+                <p class="service-item-text">
+                  Prototyping interactive dashboards that combine risk predictions, confidence intervals, and 
+                  explanations to support clinician decision-making.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="Human-AI icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Human–AI Decision Making</h4>
+                <p class="service-item-text">
+                  Exploring how different visual encodings of uncertainty and explanations affect user trust, 
+                  perceived reliability, and attention to edge cases.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!-- Research Projects (written like mini-papers) -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Research-Style Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Clinical Uncertainty & Explainability Dashboard (Heart Disease & Diabetes)
+              </h4>
+              <span>Ongoing independent project</span>
+              <p class="timeline-text">
+                Built calibrated logistic regression and random forest models for heart disease and diabetes risk, 
+                then designed an interactive dashboard that surfaces predicted risk, reliability curves, and 
+                bootstrap uncertainty for individual patients. Integrated SHAP explanations to show how each 
+                feature contributes to a given prediction and to highlight high-confidence false positives/negatives.
+                <br><br>
+                <strong>Focus:</strong> uncertainty visualization, calibration, SHAP, clinical decision support.
+                <br>
+                <strong>Artifacts:</strong> mini-paper draft, Streamlit prototype, model artifacts.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Machine Learning for Breast Cancer Diagnosis – Explainability & Error Analysis
+              </h4>
+              <span>Course project extended into a research-style pipeline</span>
+              <p class="timeline-text">
+                Developed multiple classifiers for breast cancer diagnosis (logistic regression, SVM, random forest) 
+                and extended the project with MLflow tracking, SHAP explanations, and monitoring. Analyzed which 
+                feature patterns led to confident but incorrect predictions and how model choice affected calibration 
+                and interpretability.
+                <br><br>
+                <strong>Focus:</strong> model comparison, SHAP, calibration, reliability vs. accuracy.
+                <br>
+                <strong>Artifacts:</strong> code repository, experiment logs, SHAP visualizations.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                AI Cognitive Classification (Bloom’s Taxonomy NLP)
+              </h4>
+              <span>Educational NLP and cognitive skill modeling</span>
+              <p class="timeline-text">
+                Designed a text classification pipeline that assigns exam questions to Bloom’s Taxonomy levels using 
+                TF-IDF, word embeddings, and classical ML models. Reflected on how classification uncertainty and 
+                decision boundaries could be communicated back to educators through visual summaries and explanation 
+                techniques.
+                <br><br>
+                <strong>Focus:</strong> NLP, educational data, model uncertainty, explainability.
+                <br>
+                <strong>Artifacts:</strong> GitHub project, Medium article, planned SHAP-based extensions.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Toxic Online Behavior Detection with Classic ML & Transformers
+              </h4>
+              <span>Applied ML + early exploration of model behavior</span>
+              <p class="timeline-text">
+                Implemented both classic ML models and deep learning architectures (CNN/LSTM, transformer-based 
+                zero-shot models) for multi-label toxic comment classification. Compared how different models handle 
+                borderline cases and ambiguity, and identified opportunities to surface uncertainty and explanation 
+                cues to moderators.
+                <br><br>
+                <strong>Focus:</strong> NLP, robustness on edge cases, trust and safety.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- Working Papers & Writing -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="document-text-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Working Papers & Writing</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Clinical Uncertainty Design Space (Mini-Paper)
+              </h4>
+              <span>Draft in progress</span>
+              <p class="timeline-text">
+                A mini-paper that synthesizes lessons from my uncertainty dashboard work into a conceptual design 
+                space for clinical AI interfaces. It discusses how to layer calibrated risk, interval or bootstrap-based 
+                uncertainty, and local explanations into a single dashboard without overwhelming clinicians.
+                <br><br>
+                <strong>Status:</strong> internal draft prepared for sharing with potential PhD advisors.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Automating Question Classification with AI (Bloom’s Taxonomy)
+              </h4>
+              <span>Published on Medium</span>
+              <p class="timeline-text">
+                A practitioner-oriented article describing my Bloom’s Taxonomy NLP project, covering data preparation, 
+                feature engineering, model training, and evaluation. It also reflects on how such systems can support 
+                instructors in understanding the cognitive distribution of their assessments.
+                <br><br>
+                <strong>Link:</strong> See Blog section for the full article.
+              </p>
+            </li>
+
+          </ol>
+        </section>
+
+      </article>
+
       <!--
         - #BLOG
       -->

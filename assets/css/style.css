@@ -1881,3 +1881,19 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+/* Research page link styling */
+.research a {
+  color: #4AC6FF;              /* soft cyan for readability */
+  text-decoration: none;
+  font-weight: 500;             /* optional: adds slightly better visibility */
+}
+
+.research a:hover {
+  color: #82DFFF;               /* lighter hover color */
+  text-decoration: underline;
+}
+
+.research a:visited {
+  color: #4AC6FF;               /* keep visited links same color */
+}
